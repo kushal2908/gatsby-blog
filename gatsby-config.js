@@ -30,7 +30,7 @@ module.exports = {
 
     ////
 
-    /////////////////////////////////////////////////////
+    //gatsby-plugin-mdx && gatsby-remark-images
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -45,6 +45,13 @@ module.exports = {
         ],
       },
     },
-    ////////////////////////////////////
+    // google font
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Raleway\:00;200;300;500;600;700;800;900`],
+        display: "swap",
+      },
+    },
   ],
 }
